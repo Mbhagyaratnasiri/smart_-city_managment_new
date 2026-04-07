@@ -40,7 +40,8 @@ function generateId() {
 
 function ensureRoute(req) {
   const parts = req.url.split('?')[0].split('/').filter(Boolean);
-  return parts.slice(1); // remove api
+  if (parts[0] === 'api') return parts.slice(1);
+  return parts;
 }
 
 module.exports = async (req, res) => {
