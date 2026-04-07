@@ -1,0 +1,6023 @@
+{
+  "cities": [
+    {
+      "id": "1",
+      "name": "Springfield",
+      "population": 153000,
+      "services": [
+        {
+          "type": "Waste Management",
+          "status": "Operational"
+        },
+        {
+          "type": "Public Transport",
+          "status": "Delayed"
+        }
+      ],
+      "infrastructure": {
+        "roads": "Good",
+        "waterSupply": "Stable"
+      },
+      "amenities": [
+        "Parks",
+        "Libraries",
+        "Community Centers"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Riverton",
+      "population": 82000,
+      "services": [
+        {
+          "type": "Healthcare",
+          "status": "Operational"
+        },
+        {
+          "type": "Public Transport",
+          "status": "Operational"
+        }
+      ],
+      "infrastructure": {
+        "roads": "Fair",
+        "waterSupply": "Intermittent"
+      },
+      "amenities": [
+        "Riverwalk",
+        "Sports Complex"
+      ]
+    },
+    {
+      "name": "guntur",
+      "population": 6000,
+      "id": "1775571068320"
+    }
+  ],
+  "reports": [
+    {
+      "cityId": "",
+      "title": "",
+      "description": "",
+      "contact": "",
+      "id": "1775570669177",
+      "createdAt": "2026-04-07T14:04:29.177Z",
+      "status": "open"
+    },
+    {
+      "cityId": "2",
+      "title": "",
+      "description": "jb",
+      "contact": "",
+      "id": "1775571043133",
+      "createdAt": "2026-04-07T14:10:43.133Z",
+      "status": "open"
+    },
+    {
+      "cityId": "1775571068320",
+      "title": "",
+      "description": "bad water",
+      "contact": "",
+      "id": "1775572168681",
+      "createdAt": "2026-04-07T14:29:28.681Z",
+      "status": "open"
+    }
+  ],
+  "aiActions": [
+    {
+      "id": "1",
+      "type": "Lighting",
+      "action": "Turn on street lights",
+      "location": "Downtown",
+      "timestamp": "2026-04-07T18:00:00Z",
+      "status": "Executed"
+    },
+    {
+      "id": "2",
+      "type": "Traffic",
+      "action": "Adjust traffic signals for peak hour",
+      "location": "Main Road",
+      "timestamp": "2026-04-07T17:30:00Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571494883",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:18:14.883Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571494885",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:18:14.883Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571624617",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:24.616Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571624623",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:24.616Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571624669",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:24.669Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571624674",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:24.669Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571629593",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:29.593Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571629595",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:29.593Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571634914",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:34.914Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571634918",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:34.914Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571635856",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:35.856Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571635858",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:35.856Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571635868",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:35.867Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571635870",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:35.867Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571638177",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:38.177Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571638179",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:38.177Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571639603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:39.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571639605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:39.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571641182",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:41.182Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571641187",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:41.182Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571644928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:44.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571644934",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:44.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571645330",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:45.330Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571645337",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:45.330Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571645379",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:45.379Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571645386",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:45.379Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571645872",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:45.872Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571645875",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:45.872Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571649603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:49.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571649606",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:49.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571650651",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:50.651Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571650654",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:50.651Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571651190",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:51.189Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571651196",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:51.189Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571654597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:54.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571654603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:54.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571655648",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:55.648Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571655652",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:55.648Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571655878",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:55.878Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571655882",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:55.878Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571659592",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:20:59.592Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571659595",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:20:59.592Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571660901",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:00.901Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571660904",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:00.901Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571661183",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:01.183Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571661187",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:01.183Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571664474",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:04.474Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571664476",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:04.474Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571664497",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:04.497Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571664499",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:04.497Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571664593",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:04.593Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571664595",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:04.593Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571665862",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:05.862Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571665864",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:05.862Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571665906",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:05.906Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571665909",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:05.906Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571667611",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:07.611Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571667614",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:07.611Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571667629",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:07.629Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571667633",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:07.629Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571669590",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:09.590Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571669593",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:09.590Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571669903",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:09.902Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571669914",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:09.902Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571669938",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:09.938Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571669942",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:09.938Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571670264",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:10.264Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571670266",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:10.264Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571670857",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:10.857Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571670861",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:10.857Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571670919",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:10.919Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571670922",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:10.919Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571673600",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:13.600Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571673603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:13.600Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571674907",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:14.907Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571674909",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:14.907Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571674912",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:14.912Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571674914",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:14.912Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571675592",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:15.592Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571675593",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:15.592Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571675857",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:15.857Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571675859",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:15.857Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571678905",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:18.905Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571678909",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:18.905Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571679598",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:19.598Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571679602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:19.598Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571679911",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:19.911Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571679914",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:19.911Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571680859",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:20.859Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571680862",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:20.859Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571680907",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:20.907Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571680910",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:20.907Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571683594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:23.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571683597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:23.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571684917",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:24.917Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571684920",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:24.917Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571684922",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:24.922Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571684925",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:24.922Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571685592",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:25.592Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571685597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:25.592Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571685861",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:25.861Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571685865",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:25.861Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571688907",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:28.907Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571688910",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:28.907Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571689908",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:29.908Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571689911",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:29.908Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571690597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:30.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571690599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:30.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571690869",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:30.868Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571690871",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:30.868Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571693900",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:33.900Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571693903",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:33.900Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571694614",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:34.614Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571694617",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:34.614Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571694943",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:34.943Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571694946",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:34.943Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571695862",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:35.862Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571695864",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:35.862Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571695908",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:35.908Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571695911",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:35.908Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571698913",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:38.913Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571698916",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:38.913Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571699910",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:39.910Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571699913",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:39.910Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571700589",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:40.589Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571700592",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:40.589Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571700870",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:40.870Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571700873",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:40.870Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571703893",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:43.893Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571703895",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:43.893Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571705594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:45.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571705596",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:45.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571706173",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:46.173Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571706176",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:46.173Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571708897",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:48.897Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571708899",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:48.897Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571710596",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:50.596Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571710598",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:50.596Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571710859",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:50.859Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571710862",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:50.859Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571712967",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:52.967Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571712970",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:52.967Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571713600",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:53.600Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571713604",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:53.600Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571713635",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:53.635Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571713637",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:53.635Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571713931",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:53.931Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571713933",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:53.931Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571714255",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:54.255Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571714258",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:54.255Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571714685",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:54.685Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571714687",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:54.685Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571714849",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:54.849Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571714852",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:54.849Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571715005",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:55.005Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571715008",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:55.005Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571718286",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:58.286Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571718288",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:58.286Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571719600",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:59.600Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571719603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:59.600Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571719605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:59.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571719608",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:59.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571719919",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:21:59.919Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571719922",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:21:59.919Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571720189",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:00.189Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571720191",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:00.189Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571723285",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:03.285Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571723288",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:03.285Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571724600",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:04.600Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571724603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:04.600Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571724606",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:04.606Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571724609",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:04.606Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571724928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:04.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571724930",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:04.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571725192",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:05.192Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571725195",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:05.192Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571728286",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:08.286Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571728288",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:08.286Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571729586",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:09.586Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571729589",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:09.586Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571729600",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:09.600Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571729603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:09.600Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571729916",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:09.916Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571729919",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:09.916Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571730179",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:10.179Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571730183",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:10.179Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571733296",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:13.296Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571733299",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:13.296Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571734597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:14.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571734600",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:14.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571734603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:14.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571734607",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:14.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571734923",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:14.923Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571734926",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:14.923Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571735190",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:15.190Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571735193",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:15.190Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571738284",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:18.284Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571738287",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:18.284Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571739594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:19.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571739597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:19.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571739601",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:19.601Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571739604",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:19.601Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571739932",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:19.932Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571739936",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:19.932Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571740184",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:20.184Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571740187",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:20.184Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571743285",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:23.285Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571743287",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:23.285Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571747973",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:27.973Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571747976",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:27.973Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571753290",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:33.290Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571753293",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:33.290Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571754605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:34.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571754608",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:34.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571754609",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:34.609Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571754612",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:34.609Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571754937",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:34.937Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571754939",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:34.937Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571755189",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:35.189Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571755191",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:35.189Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571758287",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:38.287Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571758290",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:38.287Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571762977",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:42.977Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571762980",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:42.977Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571768282",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:48.282Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571768285",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:48.282Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571772971",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:52.971Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571772974",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:52.971Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571778297",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:22:58.297Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571778302",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:22:58.297Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571782982",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:02.982Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571782987",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:02.982Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571788283",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:08.283Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571788286",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:08.283Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571790464",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:10.464Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571790466",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:10.464Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571790649",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:10.649Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571790653",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:10.649Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571790727",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:10.727Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571790730",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:10.727Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571790742",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:10.742Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571790745",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:10.742Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571790977",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:10.977Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571790980",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:10.977Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571791049",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:11.049Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571791052",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:11.049Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571791066",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:11.066Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571791069",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:11.066Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571795479",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:15.479Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571795483",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:15.479Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571796603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:16.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571796606",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:16.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571796609",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:16.609Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571796612",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:16.609Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571796621",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:16.620Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571796624",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:16.620Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571796945",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:16.945Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571796948",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:16.945Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571800788",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:20.788Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571800792",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:20.788Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571801590",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:21.590Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571801593",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:21.590Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571801596",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:21.596Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571801599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:21.596Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571801919",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:21.919Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571801922",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:21.919Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571802185",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:22.185Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571802187",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:22.185Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571805787",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:25.787Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571805790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:25.787Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571806587",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:26.587Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571806594",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:26.587Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571806603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:26.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571806606",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:26.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571806916",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:26.916Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571806919",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:26.916Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571807178",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:27.178Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571807181",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:27.178Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571810651",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:30.651Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571810659",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:30.651Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571810794",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:30.794Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571810799",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:30.794Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571811598",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:31.598Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571811601",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:31.598Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571811910",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:31.910Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571811915",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:31.910Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571812173",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:32.173Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571812179",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:32.173Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571815652",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:35.652Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571815654",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:35.652Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571815792",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:35.792Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571815795",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:35.792Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571816599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:36.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571816605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:36.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571816902",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:36.902Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571816905",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:36.902Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571817163",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:37.163Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571817166",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:37.163Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571818059",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:38.059Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571818063",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:38.059Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571818382",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:38.382Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571818387",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:38.382Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571820797",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:40.797Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571820804",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:40.797Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571821599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:41.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571821605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:41.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571821907",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:41.907Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571821909",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:41.907Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571822184",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:42.184Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571822189",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:42.184Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571824956",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:44.956Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571824959",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:44.956Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571824976",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:44.976Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571824979",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:44.976Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571825794",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:45.794Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571825800",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:45.794Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571830261",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:50.261Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571830270",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:50.261Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571830482",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:50.482Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571830486",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:50.482Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571834970",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:54.970Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571834976",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:54.970Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571835784",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:23:55.784Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571835788",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:23:55.784Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571840480",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:00.480Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571840483",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:00.480Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571840539",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:00.539Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571840543",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:00.539Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571840605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:00.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571840608",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:00.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571845308",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:05.308Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571845316",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:05.308Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571845793",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:05.793Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571845797",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:05.793Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571850482",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:10.482Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571850486",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:10.482Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571850621",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:10.621Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571850624",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:10.621Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571855599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:15.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571855602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:15.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571855787",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:15.787Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571855790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:15.787Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571860474",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:20.474Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571860477",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:20.474Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571860914",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:20.914Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571860917",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:20.914Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571865587",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:25.587Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571865590",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:25.587Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571865786",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:25.786Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571865789",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:25.786Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571870468",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:30.468Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571870471",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:30.468Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571870905",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:30.905Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571870908",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:30.905Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571874602",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:34.602Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571874604",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:34.602Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571874929",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:34.929Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571874932",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:34.929Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571874935",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:34.935Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571874938",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:34.935Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571875477",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:35.477Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571875480",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:35.477Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571875587",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:35.587Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571875590",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:35.587Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571880780",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:40.780Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571880783",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:40.780Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571880908",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:40.908Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571880911",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:40.908Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571885469",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:45.469Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571885472",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:45.469Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571885602",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:45.602Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571885605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:45.602Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571890791",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:50.791Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571890794",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:50.791Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571890899",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:50.899Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571890902",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:50.899Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571895469",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:55.469Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571895472",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:55.469Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571895594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:24:55.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571895597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:24:55.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571900788",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:00.788Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571900790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:00.788Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571900911",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:00.911Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571900915",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:00.911Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571905476",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:05.476Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571905479",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:05.476Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571905584",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:05.584Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571905587",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:05.584Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571910786",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:10.786Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571910789",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:10.786Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571910914",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:10.914Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571910917",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:10.914Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571915479",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:15.479Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571915482",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:15.479Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571920785",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:20.785Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571920787",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:20.785Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571925473",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:25.473Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571925476",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:25.473Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571930776",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:30.776Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571930779",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:30.776Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571934605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:34.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571934608",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:34.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571934612",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:34.612Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571934615",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:34.612Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571934928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:34.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571934931",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:34.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571935196",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:35.196Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571935199",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:35.196Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571935796",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:35.796Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571935799",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:35.796Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571940479",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:40.479Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571940482",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:40.479Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571945780",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:45.779Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571945782",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:45.779Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571950475",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:50.475Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571950478",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:50.475Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571955788",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:25:55.788Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571955792",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:25:55.788Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571960480",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:00.480Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571960483",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:00.480Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571965787",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:05.787Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571965790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:05.787Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571970474",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:10.474Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571970477",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:10.474Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571975787",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:15.787Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571975790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:15.787Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571980470",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:20.470Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571980473",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:20.470Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571985789",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:25.789Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571985795",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:25.789Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571990469",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:30.469Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571990473",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:30.469Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571994592",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:34.592Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571994595",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:34.592Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571994919",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:34.919Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571994923",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:34.919Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571994928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:34.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571994931",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:34.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571995262",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:35.262Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571995265",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:35.262Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775571995481",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:35.481Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775571995484",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:35.481Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572000788",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:40.788Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572000791",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:40.788Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572005471",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:45.471Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572005474",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:45.471Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572010797",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:50.797Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572010800",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:50.797Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572015476",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:26:55.476Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572015479",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:26:55.476Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572020794",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:00.794Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572020797",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:00.794Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572025475",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:05.475Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572025479",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:05.475Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572030787",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:10.787Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572030790",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:10.787Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572035480",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:15.480Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572035484",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:15.480Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572036933",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:16.933Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572036936",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:16.933Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572037271",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:17.271Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572037274",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:17.271Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572038281",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:18.281Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572038284",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:18.281Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572038598",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:18.598Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572038601",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:18.598Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572039608",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:19.608Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572039613",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:19.608Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572039956",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:19.956Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572039961",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:19.956Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572040298",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:20.298Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572040301",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:20.298Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572040630",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:20.630Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572040636",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:20.630Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572040974",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:20.974Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572040979",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:20.974Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572043595",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:23.595Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572043599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:23.595Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572044596",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:24.596Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572044599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:24.596Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572045915",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:25.915Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572045918",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:25.915Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572046183",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:26.183Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572046186",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:26.183Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572046245",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:26.245Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572046248",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:26.245Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572048595",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:28.595Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572048598",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:28.595Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572049605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:29.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572049613",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:29.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572050599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:30.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572050602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:30.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572050928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:30.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572050932",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:30.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572051263",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:31.263Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572051267",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:31.263Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572053387",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:33.387Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572053391",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:33.387Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572053614",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:33.614Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572053619",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:33.614Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572053716",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:33.716Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572053720",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:33.716Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572053976",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:33.976Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572053979",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:33.976Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572054052",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:34.052Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572054056",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:34.052Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572054301",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:34.301Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572054306",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:34.301Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572054388",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:34.388Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572054392",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:34.388Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572055106",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:35.106Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572055108",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:35.106Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572059672",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:39.672Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572059678",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:39.672Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572059993",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:39.993Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572059998",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:39.993Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572064599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:44.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572064602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:44.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572064616",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:44.616Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572064620",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:44.616Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572069589",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:49.589Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572069592",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:49.589Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572069609",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:49.609Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572069613",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:49.609Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572074589",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:54.589Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572074593",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:54.589Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572074608",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:54.608Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572074611",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:54.608Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572078457",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:58.457Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572078462",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:58.457Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572078485",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:58.485Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572078489",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:58.485Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572079599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:27:59.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572079602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:27:59.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572083773",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:03.773Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572083778",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:03.773Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572084593",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:04.593Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572084599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:04.593Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572092871",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:12.871Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572092875",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:12.871Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572093127",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:13.127Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572093131",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:13.127Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572097568",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:17.568Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572097572",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:17.568Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572114605",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:34.605Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572114611",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:34.605Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572115040",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:35.040Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572115049",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:35.040Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572115288",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:35.288Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572115292",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:35.288Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572119722",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:39.722Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572119725",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:39.722Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572125030",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:45.030Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572125033",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:45.030Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572128597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:48.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572128601",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:48.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572128928",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:48.928Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572128934",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:48.928Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572133594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:53.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572133600",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:53.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572138580",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:28:58.580Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572138585",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:28:58.580Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572145766",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:05.766Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572145774",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:05.766Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572145857",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:05.857Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572145862",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:05.857Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572150591",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:10.591Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572150597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:10.591Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572155847",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:15.847Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572155852",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:15.847Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572171049",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:31.049Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572171054",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:31.049Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572171315",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:31.315Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572171318",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:31.315Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572174607",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:34.607Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572174613",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:34.607Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572176047",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:36.047Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572176051",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:36.047Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572184315",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:44.315Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572184319",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:44.315Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572184565",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:44.565Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572184569",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:44.565Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572188991",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:48.991Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572188996",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:48.991Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572190128",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:50.128Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572190133",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:50.128Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572190452",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:50.452Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572190456",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:50.452Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572195145",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:29:55.145Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572195153",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:29:55.145Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572200149",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:00.148Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572200154",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:00.148Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572205133",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:05.133Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572205139",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:05.133Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572210132",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:10.132Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572210139",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:10.132Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572215899",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:15.899Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572215905",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:15.899Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572220142",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:20.142Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572220153",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:20.142Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572225127",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:25.127Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572225132",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:25.127Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572230139",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:30.139Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572230144",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:30.139Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572232557",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:32.557Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572232560",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:32.557Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572234598",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:34.598Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572234605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:34.598Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572235148",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:35.148Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572235156",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:35.148Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572240134",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:40.134Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572240140",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:40.134Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572245126",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:45.126Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572245130",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:45.126Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572250131",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:50.131Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572250137",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:50.131Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572255138",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:30:55.138Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572255145",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:30:55.138Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572261295",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:01.295Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572261300",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:01.295Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572261364",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:01.364Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572261368",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:01.364Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572266064",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:06.064Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572266070",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:06.064Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572271394",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:11.393Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572271399",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:11.393Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572276059",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:16.059Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572276066",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:16.059Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572281388",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:21.388Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572281394",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:21.388Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572286066",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:26.066Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572286070",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:26.066Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572291383",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:31.383Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572291387",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:31.383Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572294599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:34.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572294605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:34.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572296388",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:36.388Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572296394",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:36.388Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572301061",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:41.061Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572301066",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:41.061Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572306384",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:46.384Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572306388",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:46.384Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572311064",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:51.063Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572311070",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:51.063Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572313881",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:53.881Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572313889",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:53.881Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572313913",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:53.913Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572313920",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:53.913Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572318888",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:31:58.888Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572318893",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:31:58.888Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572324204",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:04.204Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572324211",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:04.204Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572329597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:09.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572329602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:09.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572334909",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:14.909Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572334912",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:14.909Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572339589",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:19.589Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572339592",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:19.589Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572344904",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:24.903Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572344908",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:24.903Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572349594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:29.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572349598",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:29.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572354897",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:34.897Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572354901",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:34.897Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572355164",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:35.164Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572355168",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:35.164Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572359599",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:39.599Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572359603",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:39.599Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572364902",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:44.902Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572364906",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:44.902Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572369590",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:49.590Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572369595",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:49.590Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572374915",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:54.915Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572374921",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:54.915Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572379595",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:32:59.595Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572379599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:32:59.595Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572384910",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:33:04.910Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572384913",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:33:04.910Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572414643",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:33:34.643Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572414648",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:33:34.643Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572414967",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:33:34.967Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572414970",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:33:34.967Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572435615",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:33:55.615Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572435619",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:33:55.615Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572435639",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:33:55.639Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572435644",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:33:55.639Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572441590",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:01.590Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572441594",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:01.590Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572441614",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:01.614Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572441619",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:01.614Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572446602",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:06.602Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572446605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:06.602Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572446624",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:06.624Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572446628",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:06.624Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572451601",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:11.601Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572451607",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:11.601Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572451636",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:11.636Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572451642",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:11.636Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572456902",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:16.902Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572456906",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:16.902Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572457168",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:17.168Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572457172",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:17.168Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572460617",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:20.617Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572460621",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:20.617Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572461902",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:21.902Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572461908",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:21.902Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572469364",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:29.364Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572469369",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:29.364Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572469680",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:29.680Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572469685",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:29.680Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572474359",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:34.359Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572474365",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:34.359Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572474898",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:34:34.898Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572474904",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:34:34.898Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572534597",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:35:34.597Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572534599",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:35:34.597Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572594930",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:36:34.930Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572594934",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:36:34.930Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572636602",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:16.602Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572636605",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:16.602Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572642603",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:22.603Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572642607",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:22.603Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572647598",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:27.598Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572647602",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:27.598Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572652594",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:32.594Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572652597",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:32.594Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572657917",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:37.917Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572657920",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:37.917Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572662592",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:42.592Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572662596",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:42.592Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572667919",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:37:47.919Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572667925",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:37:47.919Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572714606",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:38:34.606Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572714610",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:38:34.606Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572774913",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:39:34.913Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572774917",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:39:34.913Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572834588",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:40:34.588Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572834592",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:40:34.588Z",
+      "status": "Executed"
+    },
+    {
+      "id": "1775572894911",
+      "type": "Response",
+      "action": "Dispatch maintenance team",
+      "location": "Reported Area",
+      "timestamp": "2026-04-07T14:41:34.911Z",
+      "status": "Pending"
+    },
+    {
+      "id": "1775572894915",
+      "type": "Lighting",
+      "action": "Activate street lighting",
+      "location": "Citywide",
+      "timestamp": "2026-04-07T14:41:34.911Z",
+      "status": "Executed"
+    }
+  ]
+}

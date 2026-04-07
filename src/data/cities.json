@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "name": "Springfield",
+    "population": 153000,
+    "services": [
+      {"type":"Waste Management","status":"Operational"},
+      {"type":"Public Transport","status":"Delayed"}
+    ],
+    "infrastructure": {"roads":"Good","waterSupply":"Stable"},
+    "amenities": ["Parks","Libraries","Community Centers"]
+  },
+  {
+    "id": "2",
+    "name": "Riverton",
+    "population": 82000,
+    "services": [
+      {"type":"Healthcare","status":"Operational"},
+      {"type":"Public Transport","status":"Operational"}
+    ],
+    "infrastructure": {"roads":"Fair","waterSupply":"Intermittent"},
+    "amenities": ["Riverwalk","Sports Complex"]
+  }
+]
